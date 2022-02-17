@@ -114,6 +114,4 @@ def mod():
     ot.grid(column=1, row=20)
 
     window.mainloop()
-
-
 mod()
