@@ -22,7 +22,7 @@ class Node:
 
 
 class DecisionTree:
-    def __init__(self, min_samples_split=2, max_depth=100, n_feats=None):
+    def __init__(self, min_samples_split=2, max_depth=100, n_feats=10):
         self.min_samples_split = min_samples_split
         self.max_depth = max_depth
         self.n_feats = n_feats
